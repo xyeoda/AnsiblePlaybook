@@ -15,3 +15,5 @@ Some Commands to Remember:
 
 1) ansible all --list-hosts
 2) ansible all -m ping
+3) ansible all -m gather_facts
+4) ansible all -m gather_facts --limit unifi.local.yeoda.space
